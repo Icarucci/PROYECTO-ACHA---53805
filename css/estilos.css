@@ -123,3 +123,22 @@ footer {
         -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     }
 }
+@media screen and (min-width: 650px){
+    h1{
+        font-size: 90px;
+    }
+    .altura{
+        height: 600px;
+    }
+    .mainIndex{
+        .indexPrincipal{
+            background-size: cover;
+            background-position: center;
+            height: 130vh;
+            width: 100%;
+        }
+    }
+    .formulario{
+        max-width: 50%;
+    }
+}
