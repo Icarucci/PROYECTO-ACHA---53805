@@ -83,3 +83,18 @@ footer {
         font-size: 30px;
     }
 }
+.mainExtras{
+    .seccionExtras{
+        .divExtras{
+            background-color: rgb(255, 255, 255);
+            font-size: 30px;
+            list-style: none;
+            .imgExtras{
+                width: 100%;
+                height: 90%;
+                object-fit: cover;
+                border: solid rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
