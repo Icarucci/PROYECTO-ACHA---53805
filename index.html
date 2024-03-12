@@ -6,33 +6,40 @@
         <title>Proyecto Acha</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script src="https://kit.fontawesome.com/22fc575cdc.js" crossorigin="anonymous"></script>
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
-        <header id="header" class="header">
-            <div class="contenedor">
-                <div class="listaHeader">
-                    <a href="#">
-                        <img src="./assets/img/logo.png" alt="Logo del proyecto" class="logo">
-                    </a> 
-                </div>
-                <div>          
-                    <nav>
-                        <ul class="listaNavheader">
-                            <li class="listaItem">
-                                <a class="linkNav" href="#">Inicio</a></li>
-                            <li class="listaItem">
-                                <a class="linkNav" href="./pages/tipologias.html">Tipologías</a></li>
-                            <li class="listaItem">
-                                <a class="linkNav" href="./pages/ubicacion.html">Ubicación</a></li>
-                            <li class="listaItem">
-                                <a class="linkNav" href="./pages/extras.html">Extras</a></li>
-                            <li class="listaItem">
-                                <a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
+        <header>   
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div  class="container-fluid">
+                    <a href="#" class="col-md-3">
+                        <img src="./assets/img/logo.png" alt="Logo del proyecto" class="w-50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 justify-content-around w-100">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/tipologias.html">Tipologías</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/extras.html">Extras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
                         </ul>
-                    </nav>
-                </div>    
-            </div>
+                    </div>
+                </div>
+            </nav>  
         </header>
         <main class="mainIndex">
             <section class="indexPrincipal">
