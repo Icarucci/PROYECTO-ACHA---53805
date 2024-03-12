@@ -98,3 +98,18 @@ footer {
         }
     }
 }
+.mainTipologias{
+    .seccionTarjetas{
+        background-color: rgb(153, 153, 153);
+        .tarjeta{
+            background-color: rgb(255, 255, 255);
+            border: solid black;
+            .imgTarjeta{
+                width: 100%;
+                height: 90%;
+                object-fit: cover;
+                border: solid rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
