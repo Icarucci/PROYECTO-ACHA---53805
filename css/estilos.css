@@ -65,3 +65,21 @@ footer {
     }
 
 }
+.mainContacto{
+    background-image: url(../assets/img/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    .textoContacto{
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    }
+    .sombreado{
+        text-shadow: 2px 2px 2px white;
+        color: black;
+    }
+
+    form{
+        font-size: 30px;
+    }
+}
