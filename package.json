@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-acha---53805",
+  "version": "1.0.0",
+  "description": "Proyecto venta de viviendas CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Icarucci/PROYECTO-ACHA---53805.git)"
+  },
+  "author": "Ignacio",
+  "license": "ISC"
+}
