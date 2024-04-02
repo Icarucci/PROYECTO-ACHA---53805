@@ -1,0 +1,6 @@
+@mixin background($size,$position,$height,$width){
+        background-size: $size;
+        background-position: $position;
+        height: $height;
+        width: $width;
+}
