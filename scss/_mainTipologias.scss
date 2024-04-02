@@ -1,0 +1,15 @@
+.mainTipologias{
+    .seccionTarjetas{
+        background-color: $color-principal;
+        .tarjeta{
+            background-color: $color-secundario;
+            border: solid $color-negro;
+            .imgTarjeta{
+                width: 100%;
+                height: $t-90por;
+                object-fit: cover;
+                border: solid $color-sombreado;
+            }
+        }
+    }
+}

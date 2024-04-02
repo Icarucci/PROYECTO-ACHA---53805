@@ -1,0 +1,15 @@
+.mainExtras{
+    .seccionExtras{
+        .divExtras{
+            background-color: $color-secundario;
+            font-size: $txt-30px;
+            list-style: none;
+            .imgExtras{
+                width: $tamanio-extras;
+                height: $t-90por;
+                object-fit: cover;
+                border: solid $color-sombreado;
+            }
+        }
+    }
+}

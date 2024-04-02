@@ -1,144 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    font-family: "dosis"
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap");
+/*Aplico map en mediaqueries
+$media-ancho: 650px;
+$media-alto: 600px;*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "dosis";
 }
 
-h1{
-	color: rgb(223, 223, 223);
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
-    font-size: 45px;
-    .tituloDelgado{
-    font-weight: 300;
-    }
-    
+h1 {
+  color: rgb(231, 231, 231);
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  font-size: 45px;
+}
+h1 .tituloDelgado {
+  font-weight: 300;
 }
 
 header {
-    background-color: rgb(231, 231, 231);
-    .nav-link{
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-    }
+  background-color: rgb(231, 231, 231);
 }
+header .nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
 footer {
-    background-color: rgb(231, 231, 231);
-    .colorVerde{
-        color: rgb(53, 138, 91);
-    }
-    .cleanLinks{
-        text-decoration: none;
-        color: black;
-    }
-    .fa-whatsapp-square{
-        color: rgb(33, 199, 33);
-        font-size: 5rem;
-        
-    }
+  background-color: rgb(231, 231, 231);
+}
+footer .colorVerde {
+  color: rgb(53, 138, 91);
+}
+footer .cleanLinks {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+footer .fa-whatsapp-square {
+  color: rgb(33, 199, 33);
+  font-size: 5rem;
 }
 
-.mainIndex{
-    background-color: rgb(153, 153, 153);
-    .indexPrincipal{
-       background-image: url(../assets/img/fachada.png);
-       background-size: cover;
-       background-position: center;
-    }
-    .videoIndex{
-        font-size: 50px;
-    }
-    .linkTipologias{
-        background-color: rgba(44, 44, 44, 0.801);
-        width: 150px;
-        height: 50px;
-        text-decoration: none;
-        border: solid rgb(46, 46, 46);
-        color: white;     
-        border-radius: 0;      
-    }
-    .subtitulo1{
-        font-size: 40px;
-        color: rgb(0, 0, 0);
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-    }
-
+.mainIndex {
+  background-color: rgb(231, 231, 231);
 }
-.mainContacto{
-    background-image: url(../assets/img/contacto.jpg);
+.mainIndex .indexPrincipal {
+  background-image: url(../assets/img/fachada.png);
+  background-size: cover;
+  background-position: center;
+}
+.mainIndex .videoIndex {
+  font-size: 50px;
+}
+.mainIndex .linkTipologias {
+  background-color: rgb(46, 46, 46);
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  border: solid rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+.mainIndex .subtitulo1 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.mainContacto {
+  background-image: url(../assets/img/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mainContacto .textoContacto {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.mainContacto .sombreado {
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.mainContacto form {
+  font-size: 30px;
+}
+
+.mainExtras .seccionExtras .divExtras {
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  list-style: none;
+}
+.mainExtras .seccionExtras .divExtras .imgExtras {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border: solid rgba(0, 0, 0, 0.5);
+}
+
+.mainTipologias .seccionTarjetas {
+  background-color: rgb(231, 231, 231);
+}
+.mainTipologias .seccionTarjetas .tarjeta {
+  background-color: rgb(255, 255, 255);
+  border: solid rgb(0, 0, 0);
+}
+.mainTipologias .seccionTarjetas .tarjeta .imgTarjeta {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border: solid rgba(0, 0, 0, 0.5);
+}
+
+.mainUbicacion .seccionUbicacion {
+  background-image: url(../assets/img/villaurquiza.png);
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 650px) {
+  h1 {
+    font-size: 90px;
+  }
+  .altura {
+    height: 600px;
+  }
+  .mainIndex .indexPrincipal {
     background-size: cover;
     background-position: center;
-    .textoContacto{
-        font-size: 40px;
-        color: rgb(0, 0, 0);
-        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    }
-    .sombreado{
-        text-shadow: 2px 2px 2px white;
-        color: black;
-    }
-
-    form{
-        font-size: 30px;
-    }
-}
-.mainExtras{
-    .seccionExtras{
-        .divExtras{
-            background-color: rgb(255, 255, 255);
-            font-size: 30px;
-            list-style: none;
-            .imgExtras{
-                width: 100%;
-                height: 90%;
-                object-fit: cover;
-                border: solid rgba(0, 0, 0, 0.5);
-            }
-        }
-    }
-}
-.mainTipologias{
-    .seccionTarjetas{
-        background-color: rgb(153, 153, 153);
-        .tarjeta{
-            background-color: rgb(255, 255, 255);
-            border: solid black;
-            .imgTarjeta{
-                width: 100%;
-                height: 90%;
-                object-fit: cover;
-                border: solid rgba(0, 0, 0, 0.5);
-            }
-        }
-    }
+    height: 130vh;
+    width: 100%;
+  }
+  .formulario {
+    max-width: 50%;
+  }
 }
 
-.mainUbicacion{
-    .seccionUbicacion{
-        background-image: url(../assets/img/villaurquiza.png);
-        background-size: cover;
-        background-position: center;
-        font-size: 50px;
-        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    }
-}
-@media screen and (min-width: 650px){
-    h1{
-        font-size: 90px;
-    }
-    .altura{
-        height: 600px;
-    }
-    .mainIndex{
-        .indexPrincipal{
-            background-size: cover;
-            background-position: center;
-            height: 130vh;
-            width: 100%;
-        }
-    }
-    .formulario{
-        max-width: 50%;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */

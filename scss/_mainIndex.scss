@@ -1,0 +1,26 @@
+.mainIndex{
+    background-color: $color-principal;
+    .indexPrincipal{
+       background-image: url(../assets/img/fachada.png);
+       background-size: cover;
+       background-position: center;
+    }
+    .videoIndex{
+        font-size: $txt-50px;
+    }
+    .linkTipologias{
+        background-color: $color-txt-tarjetas;
+        width: $tamanio-boton-index;
+        height: $txt-50px;
+        text-decoration: none;
+        border: solid $color-txt-tarjetas;
+        color: $color-secundario;     
+        border-radius: 0;      
+    }
+    .subtitulo1{
+        font-size: $txt-40px;
+        color: $color-negro;
+        -webkit-text-stroke: $txt-1px $color-secundario;
+    }
+
+}

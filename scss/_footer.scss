@@ -1,0 +1,15 @@
+footer {
+    background-color: $color-principal;
+    .colorVerde{
+        color: $color-txt-footer;
+    }
+    .cleanLinks{
+        text-decoration: none;
+        color: $color-negro;
+    }
+    .fa-whatsapp-square{
+        color: $color-whatsapp;
+        font-size: $tamano-wpp;
+        
+    }
+}

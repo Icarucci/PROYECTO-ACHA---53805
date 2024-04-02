@@ -1,0 +1,9 @@
+.mainUbicacion{
+    .seccionUbicacion{
+        background-image: url(../assets/img/villaurquiza.png);
+        background-size: cover;
+        background-position: center;
+        font-size: $txt-50px;
+        -webkit-text-stroke: $txt-0p5px $color-secundario;
+    }
+}

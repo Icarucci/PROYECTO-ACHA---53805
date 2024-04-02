@@ -1,0 +1,19 @@
+@media screen and (min-width: map-get($mediatamanio , ancho)){
+    h1{
+        font-size: $txt-90px;
+    }
+    .altura{
+        height: map-get($mediatamanio , alto);
+    }
+    .mainIndex{
+        .indexPrincipal{
+            background-size: cover;
+            background-position: center;
+            height: 130vh;
+            width: 100%;
+        }
+    }
+    .formulario{
+        max-width: 50%;
+    }
+}

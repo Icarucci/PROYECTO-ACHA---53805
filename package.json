@@ -11,5 +11,8 @@
     "url": "(https://github.com/Icarucci/PROYECTO-ACHA---53805.git)"
   },
   "author": "Ignacio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
 }

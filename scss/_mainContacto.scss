@@ -1,0 +1,18 @@
+.mainContacto{
+    background-image: url(../assets/img/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    .textoContacto{
+        font-size: $txt-40px;
+        color: $color-negro;
+        -webkit-text-stroke: $txt-0p5px $color-secundario;
+    }
+    .sombreado{
+        text-shadow: $txt-sombreado-contacto $color-secundario;
+        color: $color-negro;
+    }
+
+    form{
+        font-size: $txt-30px;
+    }
+}
