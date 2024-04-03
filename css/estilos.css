@@ -2,7 +2,7 @@
 /*Aplico map en mediaqueries
 $media-ancho: 650px;
 $media-alto: 600px;*/
-@import '../css/animate.css';
+@import '../animate.css/animate.css';
 /* Underline Reveal */
 .hvr-underline-reveal {
   display: inline-block;
