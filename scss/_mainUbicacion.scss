@@ -4,6 +4,7 @@
         background-size: cover;
         background-position: center;
         font-size: $txt-50px;
+        mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
         -webkit-text-stroke: $txt-0p5px $color-secundario;
     }
 }

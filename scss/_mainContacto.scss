@@ -2,6 +2,7 @@
     background-image: url(../assets/img/contacto.jpg);
     background-size: cover;
     background-position: center;
+    mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
     .textoContacto{
         font-size: $txt-40px;
         color: $color-negro;

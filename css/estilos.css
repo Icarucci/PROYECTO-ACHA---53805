@@ -2,6 +2,41 @@
 /*Aplico map en mediaqueries
 $media-ancho: 650px;
 $media-alto: 600px;*/
+/* Underline Reveal */
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1a1a1a;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +105,7 @@ footer .fa-whatsapp-square {
   background-image: url(../assets/img/contacto.jpg);
   background-size: cover;
   background-position: center;
+  mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
 }
 .mainContacto .textoContacto {
   font-size: 40px;
@@ -96,6 +132,9 @@ footer .fa-whatsapp-square {
   border: solid rgba(0, 0, 0, 0.5);
 }
 
+.mainTipologias {
+  mask-image: linear-gradient(transparent, rgb(0, 0, 0) 5%);
+}
 .mainTipologias .seccionTarjetas {
   background-color: rgb(231, 231, 231);
 }
@@ -115,6 +154,7 @@ footer .fa-whatsapp-square {
   background-size: cover;
   background-position: center;
   font-size: 50px;
+  mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
 
