@@ -198,6 +198,24 @@ footer .fa-whatsapp-square {
   font-size: 5rem;
 }
 
+.main404 {
+  font-size: 45px;
+  color: rgb(0, 0, 0);
+  object-fit: cover;
+  border: solid rgba(0, 0, 0, 0.5);
+  background-image: url(../assets/img/404background.jpg);
+  background-size: cover;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.main404 .img404 {
+  width: 400px;
+  height: 200px;
+}
+.main404 .btn404 {
+  color: black;
+  background-color: rgb(255, 208, 0);
+}
+
 .mainIndex {
   background-color: rgb(231, 231, 231);
 }
@@ -303,6 +321,9 @@ footer .fa-whatsapp-square {
   }
   .formulario {
     max-width: 50%;
+  }
+  .main404 {
+    background-size: contain;
   }
 }
 

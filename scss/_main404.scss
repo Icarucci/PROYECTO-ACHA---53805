@@ -1,0 +1,18 @@
+.main404{
+    font-size: $txt-45px;
+    color: $color-negro;
+    object-fit: cover;
+    border: solid $color-sombreado;
+    background-image: url(../assets/img/404background.jpg);
+    background-size:cover;
+    -webkit-text-stroke: $txt-0p5px $color-secundario;
+    .img404{
+        width: 400px;
+        height: 200px;
+        
+    }
+    .btn404{
+        color: black;
+        background-color: rgb(255, 208, 0);
+    }
+ }
