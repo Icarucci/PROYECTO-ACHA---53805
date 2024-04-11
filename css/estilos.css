@@ -290,13 +290,19 @@ footer .fa-whatsapp-square {
   border: solid rgba(0, 0, 0, 0.5);
 }
 
-.mainUbicacion .seccionUbicacion {
+.mainUbicacion {
   background-image: url(../assets/img/villaurquiza.png);
   background-size: cover;
   background-position: center;
+}
+.mainUbicacion .seccionUbicacion {
   font-size: 50px;
   mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.mainUbicacion .txtubicacion {
+  font-size: 30px;
+  color: white;
 }
 
 @media screen and (min-width: 650px) {

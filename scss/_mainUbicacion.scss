@@ -1,10 +1,15 @@
 .mainUbicacion{
+    background-image: url(../assets/img/villaurquiza.png);
+    background-size: cover;
+    background-position: center;
     .seccionUbicacion{
-        background-image: url(../assets/img/villaurquiza.png);
-        background-size: cover;
-        background-position: center;
         font-size: $txt-50px;
         mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
         -webkit-text-stroke: $txt-0p5px $color-secundario;
+    }
+    .txtubicacion{
+        font-size: 30px ;
+        color: white;
+
     }
 }
