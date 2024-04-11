@@ -267,7 +267,7 @@ footer .fa-whatsapp-square {
   list-style: none;
 }
 .mainExtras .seccionExtras .divExtras .imgExtras {
-  width: 100%;
+  width: 300px;
   height: 90%;
   object-fit: cover;
   border: solid rgba(0, 0, 0, 0.5);
