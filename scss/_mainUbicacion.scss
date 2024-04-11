@@ -4,8 +4,10 @@
     background-position: center;
     mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
     .txtubicacion{
-        font-size: 30px ;
-        color: white;
+        font-size: $txt-30px;
+        color: $color-secundario;
+        -webkit-text-stroke: $txt-1p5px $color-secundario;
+
     }
     .seccionUbicacion{
         font-size: $txt-50px;
