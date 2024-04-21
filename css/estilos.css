@@ -167,7 +167,6 @@ Animacion EXTRAS*/
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .contenedor figure {
@@ -294,7 +293,7 @@ footer .fa-whatsapp-square {
   background-size: cover;
   background-position: center;
 }
-.mainIndex .videoIndex {
+.mainIndex .h2index {
   font-size: 50px;
 }
 .mainIndex .linkTipologias {
@@ -314,6 +313,8 @@ footer .fa-whatsapp-square {
 
 .mainContacto {
   background-image: url(../assets/img/contacto.jpg);
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
   mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
@@ -361,6 +362,8 @@ footer .fa-whatsapp-square {
 
 .mainUbicacion {
   background-image: url(../assets/img/villaurquiza.png);
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
   mask-image: linear-gradient(transparent, rgb(0, 0, 0) 10%);
@@ -396,8 +399,7 @@ footer .fa-whatsapp-square {
     background-img: url(../assets/img/fachada1920.png);*/
   }
   .mainExtras {
-    overflow: hidden;
-    height: 60vh;
+    height: auto;
   }
   .formulario {
     max-width: 50%;
