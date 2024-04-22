@@ -288,6 +288,13 @@ footer .fa-whatsapp-square {
 .mainIndex {
   background-color: rgb(231, 231, 231);
 }
+.mainIndex .imgTarjetamain {
+  width: 100%;
+  height: 100%;
+  height: 81%;
+  object-fit: cover;
+  border: solid rgba(0, 0, 0, 0.5);
+}
 .mainIndex .indexPrincipal {
   background-image: url(../assets/img/fachada639.png);
   background-size: cover;
@@ -309,6 +316,11 @@ footer .fa-whatsapp-square {
   font-size: 40px;
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.mainIndex .boximg {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .mainContacto {
